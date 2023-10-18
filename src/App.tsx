@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-import { TypingText } from "./components/CustomText";
 import Footer from "./scenes/global/Footer";
 import Header from "./scenes/global/Header";
 import About from "./scenes/sections/About";
@@ -7,12 +5,10 @@ import Home from "./scenes/sections/Home";
 import Members from "./scenes/sections/Members";
 import Partners from "./scenes/sections/Partners";
 import Services from "./scenes/sections/Services";
-import { staggerContainer } from "./utils/motion";
 
 function App() {
   return (
     <div className="main">
-
       <Header />
       <Home />
       <Services />
